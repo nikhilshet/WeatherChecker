@@ -1,0 +1,221 @@
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+.main{
+    width: 300px;
+    height: 600px;
+    background: rgb(117,53,255);
+    background: linear-gradient(180deg, rgba(117,53,255,1) 0%, rgba(132,76,254,1) 29%, rgba(170,131,255,1) 100%);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding : 10px;
+
+}   
+
+.inpBox{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   
+}
+
+.locBox{
+  background-color: #ebebeb5e;
+  backdrop-filter: blur(10px);
+  height: 35px;
+  margin-right: 5px;
+  border-radius: 25px;
+  border: 0.5px solid rgb(236, 236, 236);
+  text-indent: 10px;
+  font-size: 16px;
+}
+
+.locBox::placeholder{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.submitBtn{
+    width: 39px;
+    height: 39px;
+    border: none;
+    background-color: #ebebeb5e;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.submitBtn > img{
+    width: 17px;
+    height: 17px;
+    
+}
+.detailBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.weatherIcon{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    color: white;
+}
+
+.temp{
+    margin: 0px 0px 0px 10px;
+    font-size: 64px;
+    color: #ebebeb;
+}
+
+.city{
+    font-weight: 300;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-size: 16px;
+}
+.climate{
+    font-weight: 300;
+    margin: 0px;
+    color: white;
+}
+.timeAndDate{
+    margin: 10px 0px 0px 0px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.extraDetails{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(248, 234, 255, 0.096);
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    margin-bottom: 10px;
+    border-radius: 10px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.windBox{
+    padding-left: 10px;
+    display: flex;
+    grid-column: 1/2;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.smallB{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.wind-i{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.windD{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+.atmosphere{
+    grid-column: 2/3;
+    border-left: 1px solid rgba(255, 255, 255, 0.418);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.atmosphere-i{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.atmosphereD{
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+.weeklyBox {
+    width: 100%;
+    height: 170px;
+    overflow-x: scroll;
+    display: flex; 
+}
+
+.weeklyBox::-webkit-scrollbar {
+    height: 6px;
+    width: 4px;
+}
+
+.weeklyBox::-webkit-scrollbar-thumb {
+    background: #f0f0f0; 
+    border-radius: 25px;
+}
+
+.minicard{
+    width: 100px;
+    height: 160px;
+    background-color: rgba(248, 234, 255, 0.253);
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    margin-right: 10px; 
+    flex-shrink: 0; 
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 30px 130px;
+}
+.c{
+    padding-top: 10px;
+    grid-row: 1/2;
+    font-size: small;
+}
+
+.d{
+    
+    display: flex;
+    grid-row: 2/3;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.minicard  p{
+    margin: 0px;
+    font-size: small;
+    color: white;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center; 
+}
+
+.miniImg{
+    margin-top: 0px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
